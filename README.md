@@ -35,3 +35,5 @@
 * **Contact:** Contact form to get in touch with me.
 * **Footer:** Links to my social media profiles
 * **Responsive Design:** The website is optimized for different screen sizes and devices.
+
+**My portfolio is available for viewing at the following link:** https://dayronajosportfolio.netlify.app/
