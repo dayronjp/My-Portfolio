@@ -482,7 +482,7 @@ footer .line-footer p a {
   /*ESTILO ESPECIALIDADES*/
   section.especialidades {
     padding: 40px 8%;
-}
+  }
 
 
   /* esilo do sobre */
@@ -523,7 +523,8 @@ footer .line-footer p a {
     text-align: center;
   }
   
+}
 
-
-
+html {
+  scroll-behavior: smooth;
 }
