@@ -1,64 +1,121 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Dayron Anjos - Portfolio</title>
-  <link rel="stylesheet" href="style.css"/>
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- Google Fonts -->
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+  </style>
+
+  <!-- Icons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" />
+
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" type="image/png" href="images/Logo PTF-fotor-20241111162959.png" />
+  <title>Dayron Anjos</title>
 </head>
 <body>
   <header>
     <div class="interface">
       <div class="logo">
-        <a href="#"><img src="images/logo.png" alt="Logo" /></a>
+        <a href="#inicio">
+          <img src="images/Logo PTF-fotor-20241111162959.png" class="logo" alt="Logo" />
+        </a>
       </div>
       <nav class="menu-desktop">
         <ul>
-          <li><a href="#about">About</a></li>
-          <li><a href="#specialties">Specialties</a></li>
-          <li><a href="#projects">Projects</a></li>
+          <li><a href="#inicio">Início</a></li>
+          <li><a href="#especialidades">Especialidades</a></li>
+          <li><a href="#sobre">Sobre</a></li>
+          <li><a href="#projetos">Projetos</a></li>
         </ul>
       </nav>
-      <div class="btn-contact">
-        <a href="#contact"><button>Contact</button></a>
+      <div class="btn-contato">
+        <a href="#contato">
+          <button>Contato</button>
+        </a>
       </div>
     </div>
   </header>
 
   <main>
-    <section class="top-of-site">
+    <!-- Topo do site -->
+    <section class="topo-do-site" id="inicio">
       <div class="interface">
         <div class="flex">
-          <div class="text-top-of-site">
-            <h1>TRANSFORMING IDEAS INTO CODE <span>.</span></h1>
+          <div class="txt-topo-site">
+            <h1>CODIFICANDO IDEIAS, TRANSFORMANDO NEGÓCIOS<span>.</span></h1>
             <p>
-              Welcome to my portfolio! Here you can learn more about my skills, projects, and how I can help turn your ideas into reality through technology.
+              Com uma paixão por tecnologia, transformo ideias em soluções digitais que impulsionam
+              negócios. Minha experiência em desenvolvimento de software e trabalho em equipe me permite
+              criar aplicações eficientes e criativas.
             </p>
-            <div class="btn-contact">
-              <a href="#contact"><button>Get in Touch</button></a>
+            <div class="btn-contato">
+              <a href="#contato">
+                <button>Entre em contato</button>
+              </a>
             </div>
           </div>
-          <div class="img-top-of-site">
-            <img src="images/Avatar potfolio.jpg" alt="Avatar" />
+          <div class="img-topo-site">
+            <img src="images/Avatar potfolio-fotor-20241111184952.png" width="270" height="270" alt="" />
           </div>
         </div>
       </div>
     </section>
 
-    <section class="about" id="about">
+    <!-- Especialidades -->
+    <section class="especialidades" id="especialidades">
+      <div class="interface">
+        <h2 class="titulo">MINHAS <span>ESPECIALIDADES.</span></h2>
+        <div class="flex">
+          <div class="especialidades-box">
+            <i class="bi bi-code-square"></i>
+            <h3>Website</h3>
+            <p>
+              Desenvolvo websites que combinam design atraente e funcionalidade eficiente, utilizando HTML,
+              CSS e JavaScript para criar experiências de usuário envolventes e otimizadas.
+            </p>
+          </div>
+          <div class="especialidades-box">
+            <i class="bi bi-graph-up-arrow"></i>
+            <h3>Análise De Sistemas</h3>
+            <p>
+              Identifico necessidades e desenvolvo soluções tecnológicas eficientes, otimizando processos e
+              melhorando a eficiência organizacional.
+            </p>
+          </div>
+          <div class="especialidades-box">
+            <i class="bi bi-bar-chart-line"></i>
+            <h3>Ciência De Dados</h3>
+            <p>
+              Analiso dados para extrair insights valiosos e orientar decisões estratégicas, utilizando
+              estatística, aprendizado de máquina e visualização de dados.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Sobre -->
+    <section class="sobre" id="sobre">
       <div class="interface">
         <div class="flex">
-          <div class="image-about">
-            <img src="images/Avatar potfolio.jpg" alt="Avatar" />
+          <div class="img-sobre">
+            <img src="images/Avatar potfolio.jpg" alt="" />
           </div>
-          <div class="text-about">
-            <h2>PLEASURE TO MEET YOU, <span>I'M DAYRON ANJOS.</span></h2>
+          <div class="txt-sobre">
+            <h2>MUITO PRAZER, <span>SOU DAYRON ANJOS.</span></h2>
             <p>
-              My name is Dayron Anjos and I am passionate about programming. I study web development, networks, and cybersecurity, always looking to innovate and stay current with the latest tech trends.
+              Meu nome é Dayron Anjos e sou apaixonado por programação. Estudo criação de websites, análise
+              de sistemas e ciência de dados, sempre buscando inovar e me atualizar com as últimas
+              tendências tecnológicas. Transformo ideias em soluções digitais eficientes e criativas.
             </p>
             <p>
-              I’m focused on Software Engineering and I’m an enthusiast of networks and cybersecurity. I enjoy turning ideas into code and solving problems through efficient and secure systems.
+              Com foco em Engenharia de Software, também sou entusiasta de redes e cibersegurança. Estou
+              sempre em busca de novos desafios e oportunidades para aplicar meus conhecimentos e contribuir
+              para a transformação digital.
             </p>
             <div class="btn-social">
               <a href="https://www.instagram.com/yukinoyume9/"><button><i class="bi bi-instagram"></i></button></a>
@@ -70,60 +127,38 @@
       </div>
     </section>
 
-    <section class="specialties" id="specialties">
+    <!-- Portfólio -->
+    <section class="portfolio" id="projetos">
       <div class="interface">
-        <h2 class="title">MY <span>SPECIALTIES.</span></h2>
+        <h2 class="titulo">MEU <span>PORTFÓLIO.</span></h2>
         <div class="flex">
-          <div class="specialty-box">
-            <i class="bi bi-code-square"></i>
-            <h3>Web Development</h3>
-            <p>
-              I build websites that combine appealing design and efficient functionality using HTML, CSS, and JavaScript to deliver intuitive and engaging user experiences.
-            </p>
+          <a href="https://yukiweather.netlify.app/" target="_blank" style="text-decoration: none; color: inherit;">
+            <div class="img-port" style="background-image: url(images/yukiweather.jpeg);">
+              <div class="overlay">Projeto 1</div>
+            </div>
+          </a>
+          <div class="img-port" style="background-image: url(images/imagem.jpg);">
+            <div class="overlay">Projeto 2</div>
           </div>
-          <div class="specialty-box">
-            <i class="bi bi-diagram-3"></i>
-            <h3>Networks</h3>
-            <p>
-              I design and manage network infrastructures to ensure secure and stable connections, supporting organizational growth and scalability.
-            </p>
-          </div>
-          <div class="specialty-box">
-            <i class="bi bi-shield-lock"></i>
-            <h3>Cybersecurity</h3>
-            <p>
-              I apply cybersecurity principles to protect systems and data through risk management, threat analysis, and implementation of best practices.
-            </p>
+          <div class="img-port" style="background-image: url(images/imagem.jpg);">
+            <div class="overlay">Projeto 3</div>
           </div>
         </div>
       </div>
     </section>
 
-    <section class="projects" id="projects">
+    <!-- Contato -->
+    <section class="formulario" id="contato">
       <div class="interface">
-        <h2 class="title">MY <span>PROJECTS.</span></h2>
-        <div class="flex">
-          <div class="img-project" style="background-image: url(images/projeto1.jpg);">
-            <div class="overlay">Project 1</div>
+        <h2 class="titulo">FALA <span>COMIGO.</span></h2>
+        <form action="">
+          <input type="text" placeholder="Seu nome completo:" required />
+          <input type="text" placeholder="Seu email:" required />
+          <input type="text" placeholder="Seu celular:" />
+          <textarea placeholder="Sua mensagem:" id=""></textarea>
+          <div class="btn-enviar">
+            <input type="submit" value="ENVIAR" />
           </div>
-          <div class="img-project" style="background-image: url(images/projeto2.jpg);">
-            <div class="overlay">Project 2</div>
-          </div>
-          <div class="img-project" style="background-image: url(images/projeto3.jpg);">
-            <div class="overlay">Project 3</div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="contact" id="contact">
-      <div class="interface">
-        <h2 class="title">CONTACT <span>ME.</span></h2>
-        <form action="https://formsubmit.co/dayron4kofc@gmail.com" method="POST">
-          <input type="text" name="name" placeholder="Your name" required/>
-          <input type="email" name="email" placeholder="Your email" required/>
-          <textarea name="message" placeholder="Your message" required></textarea>
-          <div class="btn-submit"><input type="submit" value="Send"/></div>
         </form>
       </div>
     </section>
@@ -132,17 +167,19 @@
   <footer>
     <div class="interface">
       <div class="line-footer">
-        <div class="logo-footer">
-          <img src="images/logo.png" alt="Logo" />
-        </div>
-        <div class="btn-social">
-          <a href="https://www.instagram.com/yukinoyume9/"><button><i class="bi bi-instagram"></i></button></a>
-          <a href="https://www.linkedin.com/in/dayron-anjos-566b02323/"><button><i class="bi bi-linkedin"></i></button></a>
-          <a href="https://github.com/dayronjp"><button><i class="bi bi-github"></i></button></a>
+        <div class="flex">
+          <div class="logo-footer">
+            <img src="images/Logo PTF-fotor-20241111162959.png" width="120px" height="auto" alt="Logo final" />
+          </div>
+          <div class="btn-social">
+            <a href="https://www.instagram.com/yukinoyume9/"><button><i class="bi bi-instagram"></i></button></a>
+            <a href="https://www.linkedin.com/in/dayron-anjos-566b02323/"><button><i class="bi bi-linkedin"></i></button></a>
+            <a href="https://github.com/dayronjp"><button><i class="bi bi-github"></i></button></a>
+          </div>
         </div>
       </div>
-      <div class="line-footer">
-        <p><i class="bi bi-envelope-fill"></i> <a href="mailto:dayron4kofc@gmail.com">dayron4kofc@gmail.com</a></p>
+      <div class="line-footer border">
+        <p><i class="bi bi-envelope-fill"></i> <a href="mailto:dayronjp17@gmail.com">dayronjp17@gmail.com</a></p>
       </div>
     </div>
   </footer>
