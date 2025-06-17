@@ -419,6 +419,22 @@ form .btn-enviar input {
   transition: .2s;
 }
 
+#form-status {
+  transition: opacity 0.3s ease;
+  opacity: 0;
+  margin-top: 15px;
+  font-weight: bold;
+}
+
+#form-status.success {
+  color: #28a745;
+}
+
+#form-status.error {
+  color: #dc3545;
+}
+
+
 /*ESTILO FOOTER*/
 footer {
   padding: 40px 4%;
