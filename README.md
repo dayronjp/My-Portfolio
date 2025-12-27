@@ -3,6 +3,9 @@
 **About this Project**
 
 ### This is my first personal portfolio, created using HTML and CSS. The main goal was to showcase my basic skills in web design and front-end development.
+⚠️ This is an early-stage portfolio created during my initial learning phase.
+For the current portfolio, see: https://new-portfolio-url
+
 
 **Technologies used:**
 
